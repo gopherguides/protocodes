@@ -1,6 +1,9 @@
 syntax = "proto3";
+
 package gopherguides.protocodes;
-option go_package = "github.com/gopherguides/protocodes/codes";
+
+option go_package = "github.com/gopherguides/protocodes";
+
 enum Code {
 	OK = 0;
 	NotFound = 1;
